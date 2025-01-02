@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Escape Lavis</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="base.css">
+</head>
+<body>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.150/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.150/examples/jsm/"
+      }
+    }
+  </script>
+  <script src="./src/main.js" type="module">
+  </script>
+  <div class="container" id="container">
+    <div class="ui">
+      <div class="stamina-back" id="stamina-back"></div>
+      <div class="stamina-bar" id="stamina-bar"></div>
+      <div class="starting" id="lavisText"></div>
+      <div class="yesButton" id="yesButton"></div>
+      <div class="response" id="responseButton"></div>
+    </div>
+  </div>
+  <div class="imageContainer" id="imageContainer">
+    <img src="resources/lavis.png"> 
+  </div>
+</body>
+</html>
+
